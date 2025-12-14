@@ -1,0 +1,13 @@
+import Navigation from '@/components/Navigation'
+import ScrollToTop from '@/components/ScrollToTop'
+import PuranasSection from '@/components/sections/PuranasSection'
+
+export default function PuranasPage() {
+  return (
+    <>
+      <Navigation />
+      <PuranasSection />
+      <ScrollToTop />
+    </>
+  )
+}
