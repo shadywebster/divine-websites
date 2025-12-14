@@ -1,0 +1,13 @@
+import Navigation from '@/components/Navigation'
+import ScrollToTop from '@/components/ScrollToTop'
+import TantraSection from '@/components/sections/TantraSection'
+
+export default function TantraPage() {
+  return (
+    <>
+      <Navigation />
+      <TantraSection />
+      <ScrollToTop />
+    </>
+  )
+}
