@@ -1,0 +1,13 @@
+import Navigation from '@/components/Navigation'
+import ScrollToTop from '@/components/ScrollToTop'
+import VedasSection from '@/components/sections/VedasSection'
+
+export default function VedasPage() {
+  return (
+    <>
+      <Navigation />
+      <VedasSection />
+      <ScrollToTop />
+    </>
+  )
+}
