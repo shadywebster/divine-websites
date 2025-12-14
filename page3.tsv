@@ -1,0 +1,13 @@
+import Navigation from '@/components/Navigation'
+import ScrollToTop from '@/components/ScrollToTop'
+import UpanishadsSection from '@/components/sections/UpanishadsSection'
+
+export default function UpanishadsPage() {
+  return (
+    <>
+      <Navigation />
+      <UpanishadsSection />
+      <ScrollToTop />
+    </>
+  )
+}
