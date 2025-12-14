@@ -103,7 +103,18 @@ export default function Navigation() {
                 {item.name}
               </Link>
             ))}
-          </motion.div>
+          </motion.div>  
+       {/* Instagram Link in Mobile Menu */}
+            <a
+              href="https://www.instagram.com/divinechronicless?igsh=NDZrYWNmOTM0ZG91"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="flex items-center gap-3 px-4 py-3 rounded-md text-sm font-medium text-text-light hover:text-primary-gold hover:bg-white/5 transition-colors"
+            >
+              <Instagram size={20} />
+              <span>Follow on Instagram</span>
+            </a>
         )}
       </div>
     </motion.nav>
