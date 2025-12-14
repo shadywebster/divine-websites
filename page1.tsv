@@ -1,0 +1,13 @@
+import Navigation from '@/components/Navigation'
+import ScrollToTop from '@/components/ScrollToTop'
+import ShopSection from '@/components/sections/ShopSection'
+
+export default function ShopPage() {
+  return (
+    <>
+      <Navigation />
+      <ShopSection />
+      <ScrollToTop />
+    </>
+  )
+}
